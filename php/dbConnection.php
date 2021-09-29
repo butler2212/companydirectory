@@ -8,7 +8,5 @@
 
   if ($conn->connect_error) {
     die('<p>Failed to connect to MySQL: '. $conn->connect_error .'</p>');
-  } else {
-    echo '<p>Connection to MySQL server successfully established.</p>';
-  }
+  } 
 ?>
