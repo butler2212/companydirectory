@@ -30,6 +30,7 @@ body {
   position: fixed;
   top: 0;
 }
+
   .table-title h2 {
     /* margin: 5px 0 0; */
     font-size: 24px;
@@ -255,7 +256,16 @@ body {
   .form-check-input {
     margin-top: 0.15rem;
   }
-  
+
+  @media only screen and (min-width: 1200px) {
+    .table-wrapper {
+      width: 100%;
+    }
+    .table-title .sticky {
+      width: 95%;
+    }
+  }
+
   @media only screen and (max-width: 800px) {
     #employee_table_desktop_screen {
       display: none;
